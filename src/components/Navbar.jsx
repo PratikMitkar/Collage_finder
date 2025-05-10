@@ -8,7 +8,7 @@ const Navbar = () => {
         {/* Logo and Title */}
         <div className="flex items-center space-x-2">
           <School className="text-white w-6 h-6" />
-          <Link to="/" className="text-white text-lg font-bold hover:underline">
+          <Link to="Collage_finder/" className="text-white text-lg font-bold hover:underline">
             College Finder
           </Link>
         </div>
@@ -16,19 +16,19 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="flex space-x-4">
           <Link
-            to="/"
+            to="Collage_finder/"
             className="text-white hover:bg-blue-700 px-3 py-2 rounded transition duration-200"
           >
             Home
           </Link>
           <Link
-            to="/search"
+            to="Collage_finder/search"
             className="text-white hover:bg-blue-700 px-3 py-2 rounded transition duration-200"
           >
             Find Colleges
           </Link>
           <Link
-            to="/compare"
+            to="Collage_finder/compare"
             className="text-white hover:bg-blue-700 px-3 py-2 rounded transition duration-200"
           >
             Compare Colleges

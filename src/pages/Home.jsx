@@ -42,7 +42,7 @@ const Home = () => {
               Choose multiple colleges and compare their cutoffs, branches, and admission details side by side.
             </p>
             <Link
-              to="/compare"
+              to="Collage_finder/compare"
               className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
             >
               Compare Colleges

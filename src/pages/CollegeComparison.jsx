@@ -42,7 +42,7 @@ const CollegeComparison = ({ collegeData }) => {
 
     const updated = [...colleges, { ...college, code: selectedCollege }];
     const newCodes = updated.map(c => c.code).join(',');
-    navigate(`/compare?colleges=${newCodes}`);
+    navigate(`Collage_finder/compare?colleges=${newCodes}`);
     setColleges(updated);
     setSelectedCollege('');
     setError('');
@@ -51,7 +51,7 @@ const CollegeComparison = ({ collegeData }) => {
   const handleRemoveCollege = (code) => {
     const updated = colleges.filter(c => c.code !== code);
     const newCodes = updated.map(c => c.code).join(',');
-    navigate(updated.length ? `/compare?colleges=${newCodes}` : '/compare');
+    navigate(updated.length ? `Collage_finder/compare?colleges=${newCodes}` : 'Collage_finder/compare');
     setColleges(updated);
   };
 
@@ -87,7 +87,7 @@ const CollegeComparison = ({ collegeData }) => {
             <Plus size={16} /> Add
           </button>
 
-          <Link to="/search" className="border py-2 px-4 rounded text-center">
+          <Link to="Collage_finder/search" className="border py-2 px-4 rounded text-center">
             Search for Colleges
           </Link>
         </div>

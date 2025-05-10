@@ -23,7 +23,7 @@ const CollegeDetails = ({ collegeData }) => {
     return (
       <div className="max-w-6xl mx-auto p-4">
         <div className="bg-red-100 text-red-700 p-4 rounded mb-4">{error}</div>
-        <Link to="/search" className="inline-flex items-center gap-2 text-blue-600 hover:underline">
+        <Link to="Collage_finder/search" className="inline-flex items-center gap-2 text-blue-600 hover:underline">
           <ArrowLeft className="w-4 h-4" />
           Back to Search
         </Link>
@@ -42,12 +42,12 @@ const CollegeDetails = ({ collegeData }) => {
   return (
     <div className="max-w-6xl mx-auto p-4">
       <div className="flex justify-between items-center mb-6">
-        <Link to="/search" className="inline-flex items-center gap-2 text-blue-600 hover:underline">
+        <Link to="Collage_finder/search" className="inline-flex items-center gap-2 text-blue-600 hover:underline">
           <ArrowLeft className="w-4 h-4" />
           Back to Search
         </Link>
         <Link
-          to={`/compare?colleges=${collegeCode}`}
+          to={`Collage_finder/compare?colleges=${collegeCode}`}
           className="inline-flex items-center gap-2 border border-blue-600 text-blue-600 px-3 py-1.5 rounded hover:bg-blue-50 transition"
         >
           <ArrowRightLeft className="w-4 h-4" />

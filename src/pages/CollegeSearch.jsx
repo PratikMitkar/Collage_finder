@@ -127,13 +127,13 @@ const CollegeSearch = ({ collegeData }) => {
 
                     <div className="flex justify-end gap-3 mt-4">
                       <Link
-                        to={`/college/${college.code}`}
+                        to={`Collage_finder/college/${college.code}`}
                         className="text-sm text-blue-600 hover:underline"
                       >
                         View Details
                       </Link>
                       <Link
-                        to={`/compare?colleges=${college.code}`}
+                        to={`Collage_finder/compare?colleges=${college.code}`}
                         className="text-sm text-green-600 hover:underline"
                       >
                         Add to Compare
