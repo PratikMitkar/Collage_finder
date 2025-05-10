@@ -52,10 +52,10 @@ function App() {
         <Navbar />
         <main className="flex-grow container mx-auto px-4 py-6">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search" element={<CollegeSearch collegeData={collegeData} />} />
-            <Route path="/compare" element={<CollegeComparison collegeData={collegeData} />} />
-            <Route path="/college/:collegeCode" element={<CollegeDetails collegeData={collegeData} />} />
+            <Route path="Collage_finder/" element={<Home />} />
+            <Route path="Collage_finder/search" element={<CollegeSearch collegeData={collegeData} />} />
+            <Route path="Collage_finder/compare" element={<CollegeComparison collegeData={collegeData} />} />
+            <Route path="Collage_finder/college/:collegeCode" element={<CollegeDetails collegeData={collegeData} />} />
           </Routes>
         </main>
         <footer className="text-center text-sm text-gray-500 py-4 border-t mt-8">
