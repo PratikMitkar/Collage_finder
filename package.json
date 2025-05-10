@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://PratikMitkar.github.io/Collage_finder",
+  "homepage": "https://pratikmitkar.github.io/Collage_finder/",
 
 "scripts": {
   "dev": "vite",
@@ -12,8 +12,7 @@
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
-}
-,
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
