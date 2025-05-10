@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/college_data.json');
+        const response = await fetch(import.meta.env.BASE_URL + 'college_data.json');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
